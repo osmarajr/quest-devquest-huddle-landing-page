@@ -8,6 +8,12 @@
   
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
 
+
+  <!-- Lunks CSS -->
+  <link rel="stylesheet" href="./styles/reset.css">
+  <link rel="stylesheet" href="./styles/variable.css">
+  <link rel="stylesheet" href="./styles/style.css">
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -15,46 +21,56 @@
   </style>
 </head>
 <body>
-<main>
   <div class="container">
 
-    <!-- bloco 1 do container -->    
-    <div class="container imagem">
-      <!-- logo -->
-      <a href="">
-        <img src="./images/logo.svg" alt="">
-      </a>
-      <!-- imagem principal -->
-      <img src="./images/illustration-mockups.svg" alt="">
-    </div>
+    <!-- header -->
+    <header class="header">
+      <div class="logo">
+        <!-- logo -->
+        <a href="">
+          <img src="./images/logo.svg" alt="">
+        </a>
+      </div>
+    </header>
 
-    <!-- bloco 2 do container -->
-    <div class="container conteudo">
-      <h1>Build The Community Your Fans Will Love</h1>
-      <p>
-        Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-      Create connections with your users as you engage in genuine discussion. 
-      </p>
-    </div>
-    
-    <button>Register</button>
+    <main class="main">
+      <!-- bloco 1-->    
+      <div class="imagem">
+        <!-- imagem principal -->
+        <img src="./images/illustration-mockups.svg" alt="">
+      </div>
 
-    <!-- redes sociais -->
-    <ul>
-      <li>
-        <a href=""></a>
-      </li>
-      <li>
-        <a href=""></a>
-      </li>
-      <li>
-        <a href=""></a>
-      </li>
-    </ul>
+      <!-- bloco 2-->
+      <div class="conteudo">
+        <h1>Build The Community Your Fans Will Love</h1>
+        <p>
+          Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+        Create connections with your users as you engage in genuine discussion. 
+        </p>
+      </div>
+      
+      <button>Register</button>
+
+    </main>
+
+    <footer class="footer">
+      <!-- redes sociais -->
+      <div class="redes-sociais">
+        <ul>
+          <li>
+            <a href=""></a>
+          </li>
+          <li>
+            <a href=""></a>
+          </li>
+          <li>
+            <a href=""></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
   </div>
-
-</main>
-
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

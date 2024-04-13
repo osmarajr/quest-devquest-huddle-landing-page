@@ -1,11 +1,21 @@
 .container{
-    height: 100vh;
     width: 100vw;
     background: url(../images/bg-desktop.svg);
     background-color: var(--bg-color);
-    display: flex;
-
+    display: flex;  
+}
+/* header */
+.header{
+    width: 100vw;
 }
 .header .logo{
-    align-self: flex-start;
+
 }
+
+/* main */
+.main .imagem img{
+    width: 50%;
+}
+
+
+/* footer */

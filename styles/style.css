@@ -23,8 +23,11 @@ h1{
 .main{
     display: flex;
 }
+.main .imagem{
+    width: 50%;
+}
 .main .imagem img{
-    width: 100%;
+    width: 80%;
 }
 
 .conteudo{
@@ -41,7 +44,21 @@ h1{
 }
 
 /* footer */
-.footer{
+.footer .redes-sociais ul{
     display: flex;
-    color : var(--bg-redes-sociais);
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.footer li{
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 3px;
+}
+.footer a{
+    color: var(--color-principal);
 }

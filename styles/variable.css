@@ -1,4 +1,11 @@
 :root{
+    /* cores */
     --bg-color: hsl(257, 40%, 49%);
+    --color-principal: #ffffff;
+    --bg-redes-sociais: #fff;
+
     
+    /* Fontes */
+    --font-family-heading: "Poppins", sans-serif;
+    --font-family-principal: "Open Sans", sans-serif;
 }

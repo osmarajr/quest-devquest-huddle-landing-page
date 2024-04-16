@@ -24,8 +24,7 @@ h1{
 }
 /* header */
 .header{
-    padding-bottom: 40px;
-    justify-self: flex-end;
+    padding-block: 40px;
 }
 .header img{
     width: 10rem;
@@ -34,10 +33,14 @@ h1{
 .main{
     display: flex;
 }
+.main .imagem{
+    flex-basis: 660px;
+}
 .main .imagem img{
     max-width: 100%;
 }
 .conteudo{
+    flex-basis: 505px;
     margin-inline: 20px;
     display: flex;
     flex-direction: column;
@@ -52,6 +55,8 @@ h1{
     font-family: var(--font-family-heading);
     font-weight: 400;
 }
+
+
 
 /* footer */
 .footer .redes-sociais ul{

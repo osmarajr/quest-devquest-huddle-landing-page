@@ -8,11 +8,8 @@ Este desafio proposto pelo DevQuest tem como objetivo demonstrar todo o aprendiz
     - [Desafio](#desafio)
     - [Screenshot](#screenshot)
     - [Links](#links)
-- Processo de desenvolvimento
-    - Ferramentas
-    - Aprendizado
-- Autor
-- Agradecimentos
+- [Processo de desenvolvimento](#processo-de-desenvolvimento)
+- [Autor](#autor)
 
 ## Visão Geral
 
@@ -26,6 +23,10 @@ Este desafio proposto pelo DevQuest tem como objetivo demonstrar todo o aprendiz
 
     ![](./design/mobile-design.jpg)
 
+- Active states:
+
+    ![](./design/active-states.jpg)
+
 ### Screenshot
 
 ![](./design/Screenshot.png)
@@ -37,3 +38,23 @@ Este desafio proposto pelo DevQuest tem como objetivo demonstrar todo o aprendiz
 - Link do Projeto: [Github - Desafio HTML + CSS](https://github.com/osmarajr/quest-devquest-huddle-landing-page)
 
 - Link do site: [Github - Pages](https://osmarajr.github.io/quest-devquest-huddle-landing-page/)
+
+## Processo de desenvolvimento
+
+Todo código feito no [VSCODE](https://code.visualstudio.com/) utilizando seguinte recursos:
+
+- Estruturação com HTML5 semântico
+- Personalização no CSS3
+- Alinhamento dos elements com Flexbox
+- Web Design responsivo utilizando Media Queries
+- Fontes utilizadas do [Google Fonts](https://fonts.google.com/)
+- Icones utilizadas do [Font Awesomes](https://fontawesome.com/icons)
+
+## Autor
+
+- [GitHub - Osmar Almeida](https://github.com/osmarajr)
+- [Linkedin](www.linkedin.com/in/osmar-junior-473a26b4)
+
+
+
+

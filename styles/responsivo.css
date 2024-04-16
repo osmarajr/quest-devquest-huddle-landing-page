@@ -1,0 +1,17 @@
+@media (max-width: 765px){
+    .container{
+        align-items: center;
+    }
+    .main{
+        flex-wrap: wrap;
+    }
+    .conteudo, 
+    .conteudo button{
+        text-align: center;
+        align-self: center;
+    }
+
+    .footer{
+        padding-top: 20px;
+    }
+}

@@ -32,6 +32,7 @@ h1{
 /* main */
 .main{
     display: flex;
+    gap: 40px;
 }
 .main .imagem{
     flex-basis: 660px;
@@ -41,7 +42,6 @@ h1{
 }
 .conteudo{
     flex-basis: 505px;
-    margin-inline: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
